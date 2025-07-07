@@ -544,7 +544,7 @@ function aDF.Options:Gui()
 	local x,y=130,-80
 	for _,name in pairs(temptable) do
 		y=y-40
-		if y < -360 then y=-120; x=x+140 end
+		if y < -360 then y=-120; x=x+70 end
 		--DEFAULT_CHAT_FRAME:AddMessage("Name of frame: "..name.." ypos: "..y)
 		aDF_guiframes[name] = aDF_guiframes[name] or aDF.Create_guiframe(name)
 		local frame = aDF_guiframes[name]
